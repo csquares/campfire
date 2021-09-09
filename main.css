@@ -1,0 +1,23 @@
+.menu{
+    justify-content: end;
+    padding-right: 3rem;
+}
+
+.active{
+    border-bottom: 4px;
+    border-bottom-style: solid;
+    border-color: blue;
+}
+
+.landing-sec{
+    padding-top: 5rem;
+}
+
+.box{
+    background-color: aqua;
+    padding: 80rem 0rem;
+}
+h1 {
+    font-size:x-large;
+    color: blueviolet; 
+}

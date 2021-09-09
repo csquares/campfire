@@ -13,6 +13,39 @@
     padding-top: 5rem;
 }
 
+.title-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-1 img{
+    max-width: 40%;
+    position: relative;
+    top: 1rem;
+    right: -22rem;
+}
+
+.image-2 img{
+    max-width: 40%;
+    position: relative;
+    top: -4rem;
+    right: -4rem;
+}
+
+.image-3 img{
+    max-width: 40%;
+    position: relative;
+    top: -6rem;
+    right: -19rem;
+}
+
+.hover-img-1 img {
+    will-change: transform;
+    transition: transform .3s ease-in-out;
+    transform: none;
+}
+
 .box{
     background-color: aqua;
     padding: 80rem 0rem;

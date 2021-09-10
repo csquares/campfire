@@ -19,31 +19,67 @@
     justify-content: center;
 }
 
+.title-intro p{
+    margin-bottom: 2rem;
+}
+
+.landing-paragraph{
+    margin-bottom: 2rem;
+    /* width: 50%; */
+    position: relative;
+    top: .5rem;
+}
+
+.contact-landing-button{
+    width: 10rem;
+    padding: .8rem;
+    background-color: bisque;
+    font-size: 1rem;
+}
+button a{
+    text-decoration: none;
+}
 .image-1 img{
-    max-width: 40%;
+    max-width: 35%;
     position: relative;
     top: 1rem;
-    right: -22rem;
+    right: -18rem;
 }
 
 .image-2 img{
-    max-width: 40%;
+    max-width: 35%;
     position: relative;
-    top: -4rem;
+    top: 0rem;
     right: -4rem;
 }
 
 .image-3 img{
-    max-width: 40%;
+    max-width: 35%;
     position: relative;
-    top: -6rem;
-    right: -19rem;
+    top: -3rem;
+    right: -22rem;
+}
+
+.image-4 img{
+    max-width: 35%;
+    position: relative;
+    top: -5rem;
+    right: -8rem;
 }
 
 .hover-img-1 img {
     will-change: transform;
     transition: transform .3s ease-in-out;
     transform: none;
+}
+
+.bk-box{
+    padding: 3rem;
+    background-color: bisque;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 
 .box{
@@ -54,3 +90,68 @@ h1 {
     font-size:x-large;
     color: blueviolet; 
 }
+
+
+.portfolio-card-scale {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    /* border-style: solid; */
+    margin: 3rem 0rem;
+    padding: 1rem;
+}
+
+.portfolio-card-img img{
+    width: 100%;
+}
+
+.portfolio-card-body{
+    padding: 2rem 0rem;
+}
+
+
+.portfolio-card-scale:hover {
+    box-shadow: 0 1.75rem 1.875rem rgb(154 156 165 / 8%),
+                 0 1.25rem 1rem rgb(154 156 165 / 5%),
+                  0 0.5rem 0.625rem rgb(154 156 165 / 4%),
+                   0 0.25rem 0.25rem rgb(30 33 44 / 3%);
+    transition: opacity .3s ease-in-out;
+    background-color: rgb(255, 255, 255);
+}
+
+/* //////////////////////////////////////////////////////////////////  */
+/* ----------------------------------------------------- mobile ------- */
+@media only screen and (max-width: 450px) {
+   .mobile-images-stage{
+       display: none;
+   }
+
+   .bk-box{
+    padding: 3rem;
+    background-color: bisque;
+    width:auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+   }
+
+}
+
+
+@media only screen and (min-width: 1440px) {
+    /* h1 {
+      background-color: rgb(33, 81, 97);
+    } */
+    .image-1 img {
+        max-width: 35%;
+        position: relative;
+        top: 1rem;
+        right: -22rem;
+    }
+    .image-3 img {
+        max-width: 35%;
+        position: relative;
+        top: -3rem;
+        right: -28rem;
+    }
+  }

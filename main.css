@@ -229,16 +229,69 @@ background: linear-gradient(0deg, rgba(249,249,249,1) 0%, rgba(251,251,251,1) 50
     font-family: 'Cinzel', serif;
 }
 .skills h3{
-    font-size: 2rem;
+    /* font-size: 2rem; */
     text-align: center;
     margin-bottom: 2rem;
 }
 
+.amazing-box{
+    padding: 3rem;
+    /* border-bottom: 3px solid rgb(228, 228, 228); */
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+   /* border-bottom: solid rgb(241, 241, 241) 2px; */
+   -webkit-box-shadow: 0px 20px 20px 0px rgb(189 188 188 / 20%); 
+   box-shadow: 0px 20px 20px 0px rgb(189 188 188 / 20%);
+}
+
+.amazing-box h2{
+    display: flex;
+    justify-content: center;
+}
 
 
+/* .amazing-box-shadow{
+    -webkit-box-shadow: 0px 18px 5px -5px rgba(0,0,0,0.9); 
+box-shadow: 0px 18px 5px -5px rgba(0,0,0,0.9);
+} */
+
+.sc-section{
+   
+    padding: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    /* margin: 0px auto; */
+    align-items: center;
+}
+
+.sc-section p{
+    
+    font-weight: 500;
+}
+
+.sc-section button{
+    margin: .5rem 0rem 2rem 0rem;
+}
+
+.bi-github{
+    margin: 5px 0px;
+}
 
 
+.bi-linkedin{
+    margin: 0px 5px;
+}
 
+.foot-bck{
+    background-color: #020202;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0rem;
+}
 /* //////////////////////////////////////////////////////////////////  */
 /* ---------------------------------------------------- mobile ------- */
 

@@ -1,22 +1,86 @@
-.menu{
-    justify-content: end;
-    padding-right: 3rem;
+
+html body {
+    background-color: #F9F9F9;
 }
+
+
+
+.menu{
+    justify-content: center;
+    /* padding-right: 3rem; */
+}
+
 
 .active{
     border-bottom: 4px;
     border-bottom-style: solid;
-    border-color: blue;
+    border-color: rgb(32, 32, 32);;
 }
 
 .landing-sec{
     padding-top: 5rem;
+    
 }
+
+.blog-header{
+    position: relative;
+    background: #fff;
+    padding: 9em 0 4em;
+    overflow: hidden;
+}
+
+.blog-header__square {
+    top: -490px;
+    right: -40px;
+    width: 600px;
+    height: 600px;
+}
+.blog-header__square {
+    position: absolute;
+    top: -130px;
+    right: 50px;
+    width: 200px;
+    height: 200px;
+    background: -webkit-gradient(linear, left top, right top, from(#2336b6), to(rgba(31,38,103,0.9)));
+    background: linear-gradient(to right, #2336b6, rgba(31,38,103,0.9));
+    -webkit-transform: rotate(
+-45deg);
+    transform: rotate(
+-45deg);
+    -webkit-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+}
+
+.fontbox{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+.welcome{
+    font-family: serif;
+    font-size: 10rem;
+    color: rgb(0 0 0 / 1.5%);
+    position: absolute;
+    top: -3rem;
+    right: 59rem;
+    width: 200px;
+}
+
+
 
 .title-intro{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.title-intro h1{
+           font-family: 'Cinzel', serif;
+           font-size:2.5rem;
+            color: rgb(32, 32, 32); 
+        
+   
 }
 
 .title-intro p{
@@ -33,11 +97,28 @@
 .contact-landing-button{
     width: 10rem;
     padding: .8rem;
-    background-color: bisque;
+    background-color: #ffffff;
+    border-style: none;
     font-size: 1rem;
+    border: 2px solid #020202;
+    box-shadow: 10px 10px 0px 0px rgb(4 4 4 / 30%);
+    transition: all 250ms ease-out;
+}
+
+.contact-landing-button:hover{
+    width: 10rem;
+    padding: .8rem;
+    background-color: #ffffff;
+    border-style: none;
+    font-size: 1rem;
+    border: 2px solid #020202;
+    box-shadow: 0px 0px 0px 0px rgb(4 4 4 / 30%);
+    transition: all 250ms ease-out;
 }
 button a{
     text-decoration: none;
+    color: black;
+    font-weight: 600;
 }
 .image-1 img{
     max-width: 35%;
@@ -75,21 +156,23 @@ button a{
 
 .bk-box{
     padding: 3rem;
-    background-color: bisque;
+    border-bottom: 3px solid rgb(228, 228, 228);
     width: 80%;
     display: flex;
     justify-content: center;
     margin: auto;
 }
 
+.bk-box h2{
+    font-family: 'Cinzel', serif;
+    
+}
+
 .box{
-    background-color: aqua;
+    background-color: rgb(190, 190, 190);
     padding: 80rem 0rem;
 }
-h1 {
-    font-size:x-large;
-    color: blueviolet; 
-}
+
 
 
 .portfolio-card-scale {
@@ -99,6 +182,7 @@ h1 {
     /* border-style: solid; */
     margin: 3rem 0rem;
     padding: 1rem;
+    transition: all 250ms ease-out;
 }
 
 .portfolio-card-img img{
@@ -117,10 +201,54 @@ h1 {
                    0 0.25rem 0.25rem rgb(30 33 44 / 3%);
     transition: opacity .3s ease-in-out;
     background-color: rgb(255, 255, 255);
+    transition: all 250ms ease-out;
 }
+
+
+.skills{
+    padding: 5rem 0rem;
+    height: 100%;
+    border: solid #f3f3f3 2px;
+    border-radius: 0.6rem;
+    border-bottom: none;
+    border-right: none;
+    border-left:none;
+    background: rgb(249,249,249);
+background: linear-gradient(0deg, rgba(249,249,249,1) 0%, rgba(251,251,251,1) 50%, rgba(255,255,255,1) 100%);
+   
+}
+
+.skills ul{
+    list-style: none;
+}
+
+.h2-mod{
+    padding: 5rem 0rem 0rem 0rem;
+}
+.h2-mod h2{
+    font-family: 'Cinzel', serif;
+}
+.skills h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
 
 /* //////////////////////////////////////////////////////////////////  */
 /* ---------------------------------------------------- mobile ------- */
+
+@media (min-width: 992px){
+.navbar-nav .nav-link{
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+}
+
 @media only screen and (max-width: 450px) {
    .mobile-images-stage{
        display: none;

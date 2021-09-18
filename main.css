@@ -288,9 +288,14 @@ box-shadow: 0px 18px 5px -5px rgba(0,0,0,0.9);
 .foot-bck{
     background-color: #020202;
     color: #fff;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     padding: 1rem 0rem;
+    
+}
+
+.foot-bck a{
+    text-decoration: none;
+    color: #585858;
 }
 
 
@@ -328,6 +333,100 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(249,249,249,1) 
 .inspiration-sec img{
     width: 100%;
 }
+
+.wire-img{
+    padding: 3rem;
+}
+.wire-img img{
+    width: 100%;
+}
+
+.wireframe-sec{
+    margin:7rem 0rem;
+}
+.wire-desc-sec{
+    display: flex;
+    align-items: center;
+}
+
+.wire-p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0rem 3rem;
+}
+.components-sec{
+    margin: 7rem 0rem;
+}
+
+.portfolio-card-body-2{
+    padding: .8rem 0rem;
+}
+
+.project-1-font h2{
+    font-family: 'Cinzel', serif;
+    padding: 2rem 0rem;
+    
+}
+
+.project-1-font h3{
+    font-size: 1.3rem;
+}
+
+.project-1-font p{
+    padding-bottom: 2rem;
+}
+
+.artboards-sec-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.artboards-sec{
+    margin: 7rem 0rem;
+}
+
+.sketch-sec-img img{
+    width: 100%;
+}
+
+.artboard-img img{
+    width: 100%;
+}
+
+.video-sec{
+    margin: 7rem 0rem;
+}
+
+.video-sec-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+video{
+    width: 100%;
+}
+
+.mini-portfolio{
+    background-color: #b8cefc;
+    padding: 2rem 7rem;
+    margin: 3rem 0rem;
+}
+
+.ending-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.ending-sec p{
+    padding: 2rem 0rem 0rem 0rem;
+    text-align: center;
+}
+
+
+
 /* //////////////////////////////////////////////////////////////////  */
 /* ---------------------------------------------------- mobile ------- */
 

@@ -53,35 +53,49 @@ html body {
 
 .fontbox{
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
 }
 
 .welcome{
-    font-family: serif;
-    font-size: 10rem;
-    color: rgb(0 0 0 / 1.5%);
-    position: absolute;
-    top: -3rem;
-    right: 59rem;
-    width: 200px;
+    font-family:  'Cinzel', serif;
+    font-size: 6rem;
+    color: #b15032;
+    /* color: rgb(136, 69, 14); */
+    /* position: absolute;
+    top: 2rem; */
+  
 }
 
+.title-intro h1{
+    font-family: 'Amiri', serif;
+    /* font-family: 'Cinzel', serif; */
+    font-size:2.5rem;
+    color: rgb(32, 32, 32);
+}
+
+.title-intro h2{
+    font-family: 'Amiri', serif;
+    /* font-family: 'Cinzel', serif; */
+    font-size:1.5rem;
+    color: rgb(32, 32, 32);
+}
 
 
 .title-intro{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
+    text-align: right;
 }
 
-.title-intro h1{
+/* .title-intro h1{
            font-family: 'Cinzel', serif;
            font-size:2.5rem;
             color: rgb(32, 32, 32); 
         
    
-}
+} */
 
 .title-intro p{
     margin-bottom: 2rem;
@@ -180,7 +194,7 @@ button a{
     position: relative;
     text-decoration: none;
     /* border-style: solid; */
-    margin: 3rem 0rem;
+    margin: 0rem 0rem 3rem 0rem;
     padding: 1rem;
     transition: all 250ms ease-out;
 }
@@ -193,6 +207,9 @@ button a{
     padding: 2rem 0rem;
 }
 
+.portfolio-card-body .portfolio-card-title{
+    color: #b15032;
+}
 
 .portfolio-card-scale:hover {
     box-shadow: 0 1.75rem 1.875rem rgb(154 156 165 / 8%),
@@ -221,6 +238,7 @@ background: linear-gradient(0deg, rgba(249,249,249,1) 0%, rgba(251,251,251,1) 50
 .skills ul{
     list-style: none;
 }
+
 
 .h2-mod{
     padding: 5rem 0rem 0rem 0rem;

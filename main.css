@@ -60,7 +60,7 @@ html body {
 .welcome{
     font-family:  'Cinzel', serif;
     font-size: 6rem;
-    color: #b15032;
+    color: #cba67a;
     /* color: rgb(136, 69, 14); */
     /* position: absolute;
     top: 2rem; */
@@ -208,9 +208,16 @@ button a{
 }
 
 .portfolio-card-body .portfolio-card-title{
-    color: #b15032;
+    color: rgb(32, 32, 32);
 }
 
+.portfolio-card-body p{
+    color: rgb(32, 32, 32);
+}
+
+.tag{
+    font-size: .8rem;
+}
 .portfolio-card-scale:hover {
     box-shadow: 0 1.75rem 1.875rem rgb(154 156 165 / 8%),
                  0 1.25rem 1rem rgb(154 156 165 / 5%),
@@ -322,7 +329,7 @@ box-shadow: 0px 18px 5px -5px rgba(0,0,0,0.9);
 
 .landing-sec-project-1{
     /* padding-top: 5rem; */
-    background-image: url(images/web-1920-3.png);
+    background-image: url(images/restaurant-app/restaurant-app-head.jpg);
     height: 30vh;
     background-size: cover;
     background-position: center;
